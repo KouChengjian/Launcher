@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.SearchDropTargetBar 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/QSBBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false" >
+
+    <!-- Drag specific targets container -->
+
+    <LinearLayout
+        android:id="@+id/drag_target_bar"
+        style="@style/SearchDropTargetBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" >
+
+        <include layout="@layout/drop_target_bar" />
+    </LinearLayout>
+
+</com.android.launcher3.SearchDropTargetBar>
